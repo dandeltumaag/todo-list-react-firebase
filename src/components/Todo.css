@@ -1,0 +1,14 @@
+.todo__list{
+	text-align: center;
+}
+
+.todo__delete,
+.todo__edit{
+	cursor: pointer;
+	transition: all 3 ease-in-out;
+}
+
+.todo__delete:hover,
+.todo__edit:hover{
+	transform: scale(1.5);
+}
